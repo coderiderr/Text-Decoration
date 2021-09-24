@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+* {
+  overflow-x: hidden;
+  background: #d1d8ec;
+  color: #1e272e;
+  font-family: 'Baloo 2', cursive;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100vw;
+  margin: 2rem auto;
+}
+.box {
+  width: 20%;
+  padding: 5px 10px;
+}
+h2 { line-height: 1.8; }
+p {font-size: 1rem;}
+.underline {
+  text-decoration: underline;
+  text-decoration-color: #3c40c6;
+}
+.solid {
+  text-decoration-style: solid;
+}
+.dotted {
+  text-decoration-style: dotted;
+}
+.dashed {
+  text-decoration-style: dashed;
+}
+.wavy {
+  text-decoration-style: wavy;
+}
+.overline {
+  text-decoration-line: overline;
+  text-decoration-color: #3c40c6;
+}
+.underline-overline {
+  text-decoration-line: underline overline;
+  text-decoration-color: #3c40c6;
+}
+.line-through {
+  text-decoration: line-through;
+  text-decoration-color: #3c40c6;
+}
+.thickness {
+  display: flex;
+  justify-content: center;
+}
+.thin {
+  text-decoration-thickness: 1.5px;
+}
+.normal {
+   text-decoration-thickness: 2.5px;
+}
+.thick {
+  text-decoration-thickness: 6px;
+}
+.underline-offset {
+  justify-content: center;
+  display: flex;
+}
+.double {
+  text-decoration-style: double;
+}
+.offset {
+  text-underline-offset: 4px;
+}
+.wavy.offset{
+  text-underline-offset: 8px;
+}
